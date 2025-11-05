@@ -9,7 +9,7 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 const char* firmwareURL = "https://raw.githubusercontent.com/smandal439/ota/main/firmware.bin";
 const char* versionURL = "https://raw.githubusercontent.com/smandal439/ota/main/version.txt";
-const String currentVersion = "1.0";  // Change this when updating firmware
+const String currentVersion = "2.0";  // Change this when updating firmware
 
 void performOTA() {
   WiFiClientSecure client;
